@@ -1,0 +1,84 @@
+/* Add all your styles here */
+.player{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 4px dotted #F9FF00;
+  
+}
+img{
+  margin-top: 8px;
+  border: 2px solid whitesmoke;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+h1{
+  font-size: 5vh;
+  background: floralwhite;
+  opacity: 30%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  box-shadow: 5px 5px 5px rgba(23, 30, 20, 0.8);
+  border: 1px #02FF75 dashed;
+  border-radius: 50px 0 50px 0px;
+  padding:10px;
+  
+}
+body div div{
+ /* background: linear-gradient(60deg,#FF00AE,#0009FF,#FF00DF70,#002CFF82);*/
+ background: linear-gradient(60deg,#ED1B24,#DCDDDF);
+  
+}
+body h1{
+  background: linear-gradient(180deg,#02FF429E,#02ACFFD6);
+}
+.full{
+  display: grid;
+  grid-template-areas: "gayle" "rahul"  "shami" "maxwell" ;
+  grid-gap: 20px;
+}
+.gayle{
+  grid-area: "gayle";
+}
+.rahul{
+  grid-area: "rahul";
+}
+
+.shami{
+  grid-area: "shami";
+}
+.maxwell{
+  top: 5px;
+  grid-area: "maxwell";
+}
+body p{
+  opacity: 60%;
+  padding-left: 5px;
+  padding-right: 5px;
+  box-shadow: 4px 10px 8px rgba(70, 25, 10, 0.8);
+  
+}
+body{
+  padding: 3px;
+}
+div div{
+  box-shadow: 5px 5px 5px rgba(70, 25, 10, 0.8);
+  border: 3px solid #000000;
+  border-radius: 30px;
+}
+div div p{
+  font-size: 3vh;
+  text-align: center;
+}
+@media (min-width:400px){
+  .full{
+    display: grid;
+    grid-template-areas: "gayle rahul swami maxwell";
+  }
+   .header{
+    display:flex;
+    justify-content: center;
+    left:50%;
+    background-color: black;
+  }
+}
